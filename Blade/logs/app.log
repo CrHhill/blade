@@ -1,0 +1,42 @@
+2017-12-21 14:47:49:915 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: jdk.version    => 1.8.0_144
+2017-12-21 14:47:49:920 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: user.dir       => C:\Users\Administrator\Desktop\Blade
+2017-12-21 14:47:49:920 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: java.io.tmpdir => C:\Users\Administrator\AppData\Local\Temp\
+2017-12-21 14:47:49:920 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: user.timezone  => Asia/Shanghai
+2017-12-21 14:47:49:920 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: file.encoding  => UTF-8
+2017-12-21 14:47:49:921 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: classpath      => C:\Users\Administrator\Desktop\Blade\target\classes
+2017-12-21 14:47:49:928 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | current environment file is: app-prod.properties
+2017-12-21 14:47:50:062 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/users
+2017-12-21 14:47:50:063 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/auth/login
+2017-12-21 14:47:50:063 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/req/name
+2017-12-21 14:47:50:063 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => PUT	/person/update
+2017-12-21 14:47:50:063 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/
+2017-12-21 14:47:50:064 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/req/users/:id
+2017-12-21 14:47:50:064 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => DELETE	/person/delete/:id
+2017-12-21 14:47:50:064 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/person/find/:id
+2017-12-21 14:47:50:064 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/hello
+2017-12-21 14:47:50:064 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/req/upload
+2017-12-21 14:47:50:064 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/res/cookie
+2017-12-21 14:47:50:065 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/auth/login2
+2017-12-21 14:47:50:065 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/req/saveperson
+2017-12-21 14:47:50:065 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/person/find/:page/:limit
+2017-12-21 14:47:50:065 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/res/redirect
+2017-12-21 14:47:50:065 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/person/save2
+2017-12-21 14:47:50:066 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/req/save
+2017-12-21 14:47:50:066 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/gettest/:valid
+2017-12-21 14:47:50:066 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/saveusers
+2017-12-21 14:47:50:066 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/person/save/:name/:id
+2017-12-21 14:47:50:066 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/res/render
+2017-12-21 14:47:50:066 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/user
+2017-12-21 14:47:50:067 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/res/json
+2017-12-21 14:47:50:067 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/getperson/:id
+2017-12-21 14:47:50:068 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add hook  => [BEFORE	/.*]
+2017-12-21 14:47:50:068 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add hook  => [AFTER	/.*]
+2017-12-21 14:47:50:075 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Register bean: [com.blade.Environment@186e48af, com.example.config.DbConfig@1206476c, com.example.controller.UserController@668d2c71, com.example.hooks.AuthHook@31430a08, com.example.config.DbConfig@1206476c, com.example.controller.RequestController@5b0217bf, com.example.controller.PersonController@7b9f0694, com.example.hooks.AuthHook@31430a08, com.example.config.BeforeConfig@74fe5332, com.example.controller.IndexController@5dc404ef, com.example.controller.LoginController@16305f07, com.example.service.CodeService@159850f3, com.example.service.UserService@1379f6b1, com.example.controller.ResponseController@6ee77b4d]
+2017-12-21 14:47:50:105 INFO - [ _(:3」∠)_ ] c.z.h.HikariDataSource    | HikariPool-1 - Starting...
+2017-12-21 14:47:50:637 INFO - [ _(:3」∠)_ ] c.z.h.HikariDataSource    | HikariPool-1 - Start completed.
+2017-12-21 14:47:50:648 INFO - [ _(:3」∠)_ ] c.b.j.Base                | ⬢ Blade-JDBC initializing
+2017-12-21 14:47:50:648 INFO - [ _(:3」∠)_ ] c.e.c.DbConfig            | #####################Database init success!#####################
+2017-12-21 14:47:50:719 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Use NioEventLoopGroup
+2017-12-21 14:47:51:630 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ HongHuan-Blade initialize successfully, Time elapsed: 1755 ms
+2017-12-21 14:47:51:631 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Blade start with 0.0.0.0:9077
+2017-12-21 14:47:51:631 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Open your web browser and navigate to http://127.0.0.1:9077 ⚡
